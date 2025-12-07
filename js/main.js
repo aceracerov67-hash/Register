@@ -20,7 +20,7 @@ button.addEventListener("click", function (e) {
 
         
         setTimeout(() => {
-            window.location.href = "https://www.instagram.com/";
+            window.location.href = "https://www.youtube.com/";
         }, 100);
 
     } else {
