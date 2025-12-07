@@ -1,5 +1,7 @@
 
 
+
+
 const message = document.getElementById("message");
 const button = document.getElementById("btn");
 
@@ -15,6 +17,12 @@ button.addEventListener("click", function (e) {
     if (email === realEmail && password === realPassword) {
         message.innerHTML = "Login successful!";
         message.style.color = "green";
+
+        
+        setTimeout(() => {
+            window.location.href = "https://www.instagram.com/";
+        }, 100);
+
     } else {
         message.innerHTML = "Invalid email or password.";
         message.style.color = "red";
